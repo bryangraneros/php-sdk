@@ -28,9 +28,9 @@ if($_GET['code']) {
 	// We construct the item to POST
 	$item = array(
 		"title" => "Item De Teste - Por Favor, Não Ofertar! --kc:off",
-        "category_id" => "MLB257111",
+        "category_id" => "MLA1648",
         "price" => 10,
-        "currency_id" => "BRL",
+        "currency_id" => "ARS",
         "available_quantity" => 1,
         "buying_mode" => "buy_it_now",
         "listing_type_id" => "bronze",
@@ -44,60 +44,6 @@ if($_GET['code']) {
             ),
             array(
                 "source" => "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/IPhone7.jpg/440px-IPhone7.jpg"
-            )
-        ),
-        "attributes" => array(
-            array(
-                "id" => "EAN",
-                "value_name" => "190198043566"
-            ),
-            array(
-                "id" => "COLOR",
-                "value_id" => "52049"
-            ),
-            array(
-                "id" => "WEIGHT",
-                "value_name" => "188g"
-            ),
-            array(
-                "id" => "SCREEN_SIZE",
-                "value_name" => "4.7 polegadas"
-            ),
-            array(
-                "id" => "TOUCH_SCREEN",
-                "value_id" => "242085"
-            ),
-            array(
-                "id" => "DIGITAL_CAMERA",
-                "value_id" => "242085"
-            ),
-            array(
-                "id" => "GPS",
-                "value_id" => "242085"
-            ),
-            array(
-                "id" => "MP3",
-                "value_id" => "242085"
-            ),
-            array(
-                "id" => "OPERATING_SYSTEM",
-                "value_id" => "296859"
-            ),
-            array(
-                "id" => "OPERATING_SYSTEM_VERSION",
-                "value_id" => "iOS 10"
-            ),
-            array(
-                "id" => "DISPLAY_RESOLUTION",
-                "value_id" => "1920 x 1080"
-            ),
-            array(
-                "id" => "BATTERY_CAPACITY",
-                "value_name" => "3980 mAh"
-            ),
-            array(
-                "id" => "FRONT_CAMERA_RESOLUTION",
-                "value_name" => "7 mpx"
             )
         )
     );
