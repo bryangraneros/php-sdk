@@ -85,10 +85,15 @@ $appName = explode('.', $domain)[0];
                     <p>First authenticate yourself. Authentication is the key to get the most ouf Mercado Libre's API.</p>
 
                     <?php
+                    
+                    
+                    echo 'MELI?!"!#!!"!"?!?!"?!?';
+                    echo $appId;
+                    
                     $meli = new Meli($appId, $secretKey);
 
                     if($_GET['code'] || $_SESSION['access_token']) {
-
+                    
                         // If code exist and session is empty
                         if($_GET['code'] && !($_SESSION['access_token'])) {
                             // If the code was in get parameter we authorize
