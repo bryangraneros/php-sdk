@@ -3,13 +3,13 @@
 /* Go to My Apps dashboard: https://developers.mercadolibre.com.ar/apps/home, and get the information you need in order to the following enviroment variables */
 
 /* Your Application Id */
-$appId = getenv('4529339673217133');
+$appId = '4529339673217133';
 
 /* Your Secret Key */
-$secretKey = getenv('EEX30IQ1SK5t8l7ifvZ4wArvZ8wFcuck');
+$secretKey = 'EEX30IQ1SK5t8l7ifvZ4wArvZ8wFcuck';
 
 /* The Redirect url */
-$redirectURI = getenv('https://stilo-gestion.herokuapp.com');
+$redirectURI = 'https://stilo-gestion.herokuapp.com';
 
 /* The site id of the country where your application will work.
 If you don't know your site_id go to our sites resources: https://api.mercadolibre.com/sites  */
