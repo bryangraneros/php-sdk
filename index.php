@@ -206,7 +206,7 @@ $appName = explode('.', $domain)[0];
                         // We construct the item to POST
                         $item = array(
                             "title" => "Item De Teste - Por Favor, Não Ofertar! --kc:off",
-        "category_id" => "MLA1132",
+        "category_id" => "MLA1055",
         "price" => 230000,
         "currency_id" => "ARS",
         "available_quantity" => 1,
