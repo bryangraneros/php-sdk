@@ -9,7 +9,7 @@ $appId = '4529339673217133';
 $secretKey = 'EEX30IQ1SK5t8l7ifvZ4wArvZ8wFcuck';
 
 /* The Redirect url */
-$redirectURI = 'https://stilo-gestion.herokuapp.com';
+$redirectURI = 'https://stilo-gestion.herokuapp.com/';
 
 /* The site id of the country where your application will work.
 If you don't know your site_id go to our sites resources: https://api.mercadolibre.com/sites  */
