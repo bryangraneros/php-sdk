@@ -150,26 +150,15 @@ $appName = explode('.', $domain)[0];
                      <br />
                     </p>
                     <pre class="pre-item">
-"title" => "Item De Teste - Por Favor, Não Ofertar! --kc:off",
-        "category_id" => "MLB1227",
-        "price" => 10,
-        "currency_id" => "BRL",
-        "available_quantity" => 1,
-        "buying_mode" => "buy_it_now",
-        "listing_type_id" => "bronze",
-        "condition" => "new",
-        "description" => "Item de Teste. Mercado Livre's PHP SDK.",
-        "video_id" => "RXWn6kftTHY",
-        "warranty" => "12 month",
-        "pictures" => array(
-            array(
-                "source" => "https://upload.wikimedia.org/wikipedia/commons/f/fd/Ray_Ban_Original_Wayfarer.jpg"
+
+
+                "id" => "INTERNAL_MEMORY",
+                "value_id" => "48GB"
             ),
             array(
-                "source" => "https://upload.wikimedia.org/wikipedia/commons/a/ab/Teashades.gif"
-            )
-        )
-    )
+                "id" => "RAM",
+                "value_id" => "2GB"
+
                     </pre>
 
                     <?php
@@ -243,11 +232,11 @@ $appName = explode('.', $domain)[0];
             ),
             array(
                 "id" => "INTERNAL_MEMORY",
-                "value_id" => "48GB"
+                "value_id" => "48 GB"
             ),
             array(
                 "id" => "RAM",
-                "value_id" => "2GB"
+                "value_id" => "2 GB"
             ),
             array(
                 "id" => "CARRIER",
