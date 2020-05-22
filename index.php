@@ -153,11 +153,13 @@ $appName = explode('.', $domain)[0];
 
 
                 "id" => "INTERNAL_MEMORY",
-                "value_id" => "48GB"
+                "value_id" => "48 GB"
             ),
             array(
                 "id" => "RAM",
-                "value_id" => "2GB"
+                "value_id" => "2 GB"
+
+                namename
 
                     </pre>
 
@@ -232,11 +234,11 @@ $appName = explode('.', $domain)[0];
             ),
             array(
                 "id" => "INTERNAL_MEMORY",
-                "value_id" => "48 GB"
+                "value_name" => "48 GB"
             ),
             array(
                 "id" => "RAM",
-                "value_id" => "2 GB"
+                "value_name" => "2 GB"
             ),
             array(
                 "id" => "CARRIER",
