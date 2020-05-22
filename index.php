@@ -92,8 +92,13 @@ $appName = explode('.', $domain)[0];
 
                     if($_GET['code'] || $_SESSION['access_token']) {
 
+                        echo "existe code o session";
+
                         // If code exist and session is empty
                         if($_GET['code'] && !($_SESSION['access_token'])) {
+
+                            echo "existe code y sesion es vacia";
+
                             // If the code was in get parameter we authorize
                             $user = $meli->authorize($_GET['code'], $redirectURI);
 

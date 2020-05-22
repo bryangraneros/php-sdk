@@ -73,6 +73,9 @@ class Meli {
         $this->redirect_uri = $redirect_uri;
         $params = array("client_id" => $this->client_id, "response_type" => "code", "redirect_uri" => $redirect_uri);
         $auth_uri = $auth_url."/authorization?".http_build_query($params);
+
+        print_r($auth_uri);
+
         return $auth_uri;
     }
 
