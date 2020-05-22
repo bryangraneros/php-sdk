@@ -243,7 +243,7 @@ $appName = explode('.', $domain)[0];
             ),
             array(
                 "id" => "INTERNAL_MEMORY",
-                "value_id" => "242085"
+                "value_id" => "48G"
             ),
             array(
                 "id" => "RAM",
