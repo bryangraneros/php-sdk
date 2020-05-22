@@ -247,7 +247,7 @@ $appName = explode('.', $domain)[0];
             ),
             array(
                 "id" => "RAM",
-                "value_id" => "24G"
+                "value_id" => "2G"
             ),
             array(
                 "id" => "CARRIER",
