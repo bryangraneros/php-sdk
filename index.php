@@ -243,11 +243,11 @@ $appName = explode('.', $domain)[0];
             ),
             array(
                 "id" => "INTERNAL_MEMORY",
-                "value_id" => "48 GB"
+                "value_id" => "48GB"
             ),
             array(
                 "id" => "RAM",
-                "value_id" => "2 GB"
+                "value_id" => "2GB"
             ),
             array(
                 "id" => "CARRIER",
