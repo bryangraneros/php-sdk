@@ -223,6 +223,36 @@ $appName = explode('.', $domain)[0];
             array(
                 "source" => "https://upload.wikimedia.org/wikipedia/commons/a/ab/Teashades.gif"
             )
+        ),
+        "attributes" => array(
+            array(
+                "id" => "BRAND",
+                "value_name" => "190198043566"
+            ),
+            array(
+                "id" => "COLOR",
+                "value_id" => "52049"
+            ),
+            array(
+                "id" => "MODEL",
+                "value_name" => "188g"
+            ),
+            array(
+                "id" => "IS_DUAL_SIM",
+                "value_name" => "YES"
+            ),
+            array(
+                "id" => "INTERNAL_MEMORY",
+                "value_id" => "242085"
+            ),
+            array(
+                "id" => "RAM",
+                "value_id" => "24G"
+            ),
+            array(
+                "id" => "CARRIER",
+                "value_id" => "242085"
+            )
         )
     );
                         
