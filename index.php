@@ -159,7 +159,7 @@ $appName = explode('.', $domain)[0];
                 "id" => "RAM",
                 "value_id" => "2 GB"
 
-                namename
+                namename42084
 
                     </pre>
 
@@ -230,7 +230,7 @@ $appName = explode('.', $domain)[0];
             ),
             array(
                 "id" => "IS_DUAL_SIM",
-                "value_name" => "YES"
+                "value_id" => "242084"
             ),
             array(
                 "id" => "INTERNAL_MEMORY",
@@ -242,7 +242,7 @@ $appName = explode('.', $domain)[0];
             ),
             array(
                 "id" => "CARRIER",
-                "value_id" => "242085"
+                "value_name" => "242085"
             )
         )
     );
