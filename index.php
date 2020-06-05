@@ -130,7 +130,7 @@ $appName = explode('.', $domain)[0];
                     } else {
                         echo '<p><a alt="Login using MercadoLibre oAuth 2.0" class="btn" href="' . $meli->getAuthUrl($redirectURI, Meli::$AUTH_URL[$siteId]) . '">Authenticate</a></p>';
                     }
-                    print_r ($_SESSION['access_token']);
+                    echo $_SESSION['access_token'];
                     ?>
                 </div>
                 <div class="col-sm-6 col-md-6">
