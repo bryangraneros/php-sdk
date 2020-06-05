@@ -268,6 +268,19 @@ $appName = explode('.', $domain)[0];
 
                 </div>
 
+
+
+
+
+
+
+
+                <div class="col-md-6">
+                    <h3>Gestionar ventas</h3>
+                    <p><a class="btn" href="../php/gestionarVentas.php">GET</a></p>
+                </div>
+
+
                 <div class="col-md-6">
                     <h3>Get started!</h3>
                     <p>Now you know how easy it is to get information from our API. Check the rest of the examples on the SDK, and modify them as you like in order to List an item, update it, and other actions.</p>
